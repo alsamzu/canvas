@@ -19,15 +19,18 @@ var c=canvas.getContext('2d');
 //Arc //Circle
 c.beginPath();
 c.arc(300,300,50,0,Math.PI*2,false);
-c.strokeStyle="green";
+c.strokeStyle="orange";
 c.stroke();
 
-for(i=0;i<100;i++){
-    var x=Math.random() *window.innerWidth;
-    var y=Math.random() *window.innerHeight;
-    c.beginPath();
-c.arc(x,y,50,0,Math.PI*2,false);
-c.strokeStyle="yellow";
-c.stroke();
-    
+//for(i=0;i<100;i++){
+//    var x=Math.random() *window.innerWidth;
+//    var y=Math.random() *window.innerHeight;
+//    c.beginPath();
+//c.arc(x,y,50,0,Math.PI*2,false);
+//c.strokeStyle="yellow";
+//c.stroke();
+//    
+//}
+function animate(){
+    requestAnimationFrame(animate);
 }
