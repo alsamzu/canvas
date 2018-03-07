@@ -6,3 +6,9 @@ var c=canvas.getContext('2d');
 c.fillRect(100,100,100,100);
 
 console.log(canvas);
+
+//drawing a line
+c.beginPath();
+c.moveTo(60,300);
+c.lineTo(500,60);
+c.stroke();
