@@ -15,3 +15,9 @@ c.moveTo(80,300);
 c.lineTo(500,80);
 c.strokeStyle="blue";
 c.stroke();
+
+//Arc //Circle
+c.beginPath();
+c.arc(300,300,50,0,Math.PI*2,false);
+c.strokeStyle="green";
+c.stroke();
