@@ -34,3 +34,4 @@ c.stroke();
 function animate(){
     requestAnimationFrame(animate);
 }
+animate();
